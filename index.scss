@@ -1,0 +1,119 @@
+$secundary-color: #125688;
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $secundary-color;
+}
+
+.iphone {
+  max-width: 100%;
+}
+
+.site-footer {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.login-box, .signup-box {
+  background-color: white;
+  border: 1px solid #edeeee;
+  border-radius: 3px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.platzigram {
+  font-family: 'Oleo Script';
+  font-size: 42px;
+  color: $secundary-color !important;
+}
+
+.signup-form {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.signup-form h2{
+  color: #a5a7aa;
+  font-size: 1.2em;
+}
+
+.signup-form .btn.btn-fb{
+  background-color:  #1090db;
+  font-size: 0.8em;
+}
+
+.signup-form .btn.btn-fb:hover{
+  background-color: #2d6599;
+}
+
+.signup-form .btn-signup{
+  background-color: $secundary-color;
+}
+
+.header {
+  background-color: white;
+  color: $secundary-color;
+  box-shadow: none;
+  border-bottom: 1px solid #edeeee;
+}
+
+.timeline {
+  padding: 30px 0px;
+}
+
+.landing {
+  margin: 50px auto;
+}
+
+$avatar-size: 48px;
+
+.avatar {
+  width: $avatar-size;
+  height: $avatar-size;
+  border-radius: 50%;
+  float: left;
+  margin-right: 12px;
+}
+
+.card .username {
+  color: $secundary-color;
+}
+
+.card small.time {
+  line-height: $avatar-size;
+}
+
+.card p {
+  padding: 20px 0px;
+}
+
+.card .likes {
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.card i {
+  font-size: 30px;
+}
+
+.card .fa-heart-o {
+  color: $secundary-color;
+}
+
+.card .fa-heart {
+  color: #F44336;
+  display: none;
+}
+
+.card .liked {
+  .fa-heart {
+    display: block;
+  }
+
+  .fa-heart-o {
+    display: none;
+  }
+}
